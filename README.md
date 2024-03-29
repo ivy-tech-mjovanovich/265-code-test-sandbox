@@ -29,7 +29,8 @@ Performance profiling is a technique used to measure certain aspects of a progra
 
 1. Open the profiling.py file.
 2. Read through the file and do our best to interpret the code.
-3. Execute the code. Observe the following in the output for the rows where the line number is 20 and 26:
+3. Install the numpy package using the pip package manager. You can do this by entering the following command in the terminal: `pip install numpy`
+4. Execute the code. Observe the following in the output for the rows where the line number is 20 and 26:
    1. ncalls: the number of times the function was called.
    2. tottime: the total time spent in the function over the life of the program.
 
