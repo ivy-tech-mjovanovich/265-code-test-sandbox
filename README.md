@@ -36,7 +36,7 @@ Performance profiling is a technique used to measure certain aspects of a progra
 
 Answer the following questions regarding other_function1 and other_function2:
 
-- Which function takes long to execute a single time? See the comments on lines 21 and 28.
+- Which function takes longer to execute a single time? See the comments on lines 21 and 28.
 - How much time did the program spend in each function over the life of the program?
 - Based on this data, which of the two functions should we focus on optimizing (trying to reduce execution time of the function call), and why?
 
