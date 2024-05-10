@@ -18,7 +18,7 @@ When using a sample size we usually refer to the number of samples in the format
 Answer the following questions:
 
 - For both your n=1 and n=1000 scenarios:
-   - What is the percentage difference in the average time between the two implementations? You may use the following formula to calculate the percentage difference: `((original_time - new_time) / new_time) * 100`.
+   - What is the percentage difference in the average time between the two implementations? You may use the following formula to calculate the percentage difference: `((V2 - V1) / |V1|) * 100`, where V1 is the old time and V2 is the new time.
    - Express this difference verbally, e.g. "Implementation x is 10% faster/slower than Implementation x."
 - Is there greater variation in the average time with the smaller or larger number of tests?
 - What does this tell you about how sample size affects the reliability of performance measurements?
