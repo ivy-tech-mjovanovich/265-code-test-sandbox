@@ -31,7 +31,7 @@ def function2():
 
 
 # Simulate a real dataset for the application
-data = np.random.gamma(2.0, 2.0, 1000)
+data = np.random.gamma(2.0, 2.0, 10000)
 data = np.clip(data, None, 20)
 
 ## ###############################################################
