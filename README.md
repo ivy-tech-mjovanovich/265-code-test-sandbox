@@ -9,7 +9,7 @@ A simple and effective way to measure the performance of a program is to use tim
 ### Instructions
 
 1. Open the timers.py file.
-2. Read through the file and do our best to interpret the code.
+2. Read through the file and do your best to interpret the code.
 3. Run the program several times and observe the output.
 4. Change the NUMBER_OF_TESTS constant to 1000 and run the program again.
 
