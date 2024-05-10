@@ -6,6 +6,8 @@
 
 A simple and effective way to measure the performance of a program is to use timers. In this program, you will use the `time` module to measure the time it takes to execute a two implementations of a program.
 
+When using a sample size we usually refer to the number of samples in the format `n=1`, `n=10`, etc.
+
 ### Instructions
 
 1. Open the timers.py file.
@@ -15,7 +17,7 @@ A simple and effective way to measure the performance of a program is to use tim
 
 Answer the following questions:
 
-- What is the percentage difference in the average time between the two implementations? You may use the following formula to calculate the percentage difference: `((average_time_1 - average_time_2) / average_time_1) * 100`.
+- What is the percentage difference in the average time between the two implementations? You may use the following formula to calculate the percentage difference: `((original_time - optimized_time) / original_time) * 100`. Perform this calculation for both your n=1 and n=1000 scenarios.
 - Express this difference verbally, e.g. "Implementation x is 10% faster/slower than Implementation x."
 - Is there greater variation in the average time with the smaller or larger number of tests? What does this tell you about how sample size affects the reliability of performance measurements?
 
