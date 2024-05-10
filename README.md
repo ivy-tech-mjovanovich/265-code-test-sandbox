@@ -37,10 +37,11 @@ Performance profiling is a technique used to measure certain aspects of a progra
 4. Execute the code. Observe the following in the output for the rows where the line number is 20 and 27:
    1. ncalls: the number of times the function was called.
    2. tottime: the total time spent in the function over the life of the program.
+   3. percall: time it took to call the function a single time. *There are two columns with this name. We want the second one.
 
 Answer the following questions regarding other_function1 and other_function2:
 
-- Which function takes longer to execute a single time? See the comments on lines 21 and 28.
+- Which function takes longer to execute a single time?
 - How much time did the program spend in each function over the life of the program?
 - Based on this data, which of the two functions should we focus on optimizing (trying to reduce execution time of the function call), and why?
 
